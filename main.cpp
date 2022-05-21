@@ -15,16 +15,12 @@ int main() {
         m= (a+b)/2;
         f(m);
         if(f(m)==0){
-            a=m;
-            b=m;
             cout<< m;
             cout << f(m);
-        }else
-        { if (f(m)<0) {
+        }else if (f(m)<0) {
             a=m;
         }else{
                     b=m;
-        }
         }
     }
     return 0;
