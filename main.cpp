@@ -13,7 +13,7 @@ int main() {
         cin >> a >> b;
     while ((b-a)/2>0.0001){
         m= (a+b)/2;
-        cout<< a<< b<< m<< f(m)<< endl;
+        f(m);
         if(f(m)==0){
             a=m;
             b=m;
