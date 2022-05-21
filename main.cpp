@@ -18,9 +18,9 @@ int main() {
             cout<< m;
             cout << f(m);
         }else if (f(m)<0) {
-            a=m;
+            b=m;
         }else{
-                    b=m;
+                    a=m;
         }
     }
     return 0;
